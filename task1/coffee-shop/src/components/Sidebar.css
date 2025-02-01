@@ -1,0 +1,80 @@
+.sidebar {
+  width: 300px;
+  height: 95vh;
+  background: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.1);
+}
+.space{
+  height: 25vh;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.highlight {
+  color: #ff8a65;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin-left: 20px 0;
+}
+
+.nav-list li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: background-color 0.5s;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-list li .icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.nav-list li:hover,
+.nav-list .active {
+  box-shadow: 5px 0 0 0 #ff8a65; 
+  color: #ff8a65;
+  background-color: hsla(14, 100%, 70%, 0.035);
+}
+
+
+.order-count {
+  background: #ff8a65;
+  color: white;
+  font-size: 12px;
+  padding: 4px 4px;
+  margin-left: 40px ;
+  border-radius: 50%;
+  justify-items: right;
+}
+
+.donate {
+  color: #ff8a65;
+  padding: 10px;
+
+  
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: gray;
+}
+
+.logout .icon {
+  margin-right: 10px;
+}

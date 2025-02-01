@@ -1,0 +1,199 @@
+/* Search and Filter */
+.search-filter {
+    display: flex;
+    padding: 10px 20px;
+    width: 100%;
+    height: 6vh;
+    background: #fff;
+    padding: 30px;
+    display: flex;
+    box-shadow: 1px 0 1px rgba(0, 0, 0, 0.014);
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    height: 130%;
+    border-radius: 100px;
+    background-color: #ff896532;
+}
+
+.search-icon {
+    color: #6a6a6a;
+    padding: 21px;
+}
+
+.search-input {
+    width: 70%;
+    padding: 8px;
+    background-color: #ff896500;
+    border: none;
+    border-radius: 100px;
+    color: #6a6a6a;
+}
+  
+.filter-button {
+    width: 20vh;
+    background-color: #ff8a65;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 100px;
+    cursor: pointer;
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: center;
+    font-size: 16px;
+}
+  
+  /* Category Navigation */
+  .category-nav {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .category-nav button {
+    width :15%;
+    height: 50px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: 1px solid #ff8965;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    border-radius: 25px;
+    background: rgba(211, 211, 211, 0);
+    cursor: pointer;
+    color: black;
+    transition: background-color 0.5s;
+  }
+  
+  .category-nav .active, .category-nav button:hover {
+    background: #ff8a65;
+    color: white;
+  }
+  
+  
+  .menu-card .size-options {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px 0;
+  }
+  
+  .menu-card .size-btn {
+    border: 1px solid #ddd;
+    color: #5e5e5e;
+    width: 100px;
+    background: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-card .quantity-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .menu-card .quantity-control button {
+    border: 1px solid #959595;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .menu-card .add-to-cart {
+    background: none;
+    border: 1px solid #ff8a65;
+    color: #ff8a65;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .menu-container {
+    margin-left: 270px;
+    padding: 20px;
+  }
+  
+  .menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+    width: 80%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .menu-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 90%;
+  }
+  
+  .menu-image {
+    width: 120px;
+    height: 180px;
+    border-radius: 8px;
+    background-color: #f7951d16;
+  }
+  
+  .price {
+    color: #f7941d;
+  }
+  
+  .menu-table td{
+    padding: 5px;
+  }
+
+  .menu-table .menu-description{
+    color: #7b7b7b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+  }
+  
+  .quantity-control {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .quantity-control button {
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .add-cart-btn {
+    padding: 10px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: #f7941d;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .price{
+    font-weight: bold;
+    font-size: 26px;
+  }
+
+  .menu-title{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:18px;
+    font-weight: lighter;
+  }
